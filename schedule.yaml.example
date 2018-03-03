@@ -1,0 +1,16 @@
+# set temperature range down when away, up when back
+away:
+  time: '06:00'
+  target_temperature_low: 50
+  target_temperature_high: 80
+  dates:
+    - 12/31/2017
+    - 1/28/2018
+
+home:
+  time: '15:00'
+  target_temperature_low: 69
+  target_temperature_high: 77
+  dates:
+    - 1/2/2018
+    - 2/1/2018
